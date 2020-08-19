@@ -1,0 +1,56 @@
+
+  {
+    "nombre": "Juan",
+    "apellido": "Restrepo",
+    "edad": "19",
+    "pais": "Colombia",
+    "departamento": "Antioquia",
+    "municipio": "Apartadó",
+    "ip": "192 . 168 . 1 . 1",
+    "nacionalidad": "Colombiano",
+    "ocupacion": "Estudiante",
+    "carrera": "Ingenieria de Sistemas",
+    "universidad": "Universidad Cátolica Luis Amigó",
+    "semestreActual": "Octavo",
+    "habilidades": [
+      {
+        "habilidad": "Css",
+        "logo": "assets/icons/CSS3_logo_and_wordmark.svg.png"
+      },
+      {
+        "habilidad": "JavaScript",
+        "logo": "assets/icons/js.png"
+      },
+      {
+        "habilidad": "Webpack",
+        "logo": "assets/icons/webpack.svg"
+      }
+    ],
+    "otrasHabilidades": [
+      "Photoshop", "Lightroom", "SonyVegas", "Adobe Premiere"
+    ],
+    "idiomas": [
+      "Español", "Inglés"
+    ],
+    "redes sociales": [
+      {
+        "red social": "Github",
+        "link": "https://github.com/LordGarfil?tab=repositories"
+      },
+      {
+        "red social": "Facebook",
+        "link": "https://www.facebook.com/juan.restrepooquendo/"
+      },
+      {
+        "red social": "Instagram",
+        "link": "https://www.instagram.com/sir_jotape/"
+      }
+    ],
+    "pasion": [
+      {
+        "actividad": "Diseño y programación",
+        "area": "Frontend"
+      }
+    ]
+  }
+
