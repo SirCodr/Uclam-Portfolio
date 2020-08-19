@@ -1,5 +1,5 @@
 async function setData() {
-  const res = await fetch("../data/info.json");
+  const res = await fetch("./data/info.json");
   const data = await res.json();
 
   /* PORTAFOLIO CABECERA */
