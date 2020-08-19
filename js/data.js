@@ -15,11 +15,11 @@ async function setData() {
   document.querySelector("#portfolioModal3Label").textContent =
     data.habilidades[2].habilidad;
   document.querySelector("#portfolioModal1Image").src =
-    "../assets/img/portfolio/vscode.png"
+    "./assets/img/portfolio/vscode.png"
   document.querySelector("#portfolioModal2Image").src =
-  "../assets/img/portfolio/jscode.gif"
+  "./assets/img/portfolio/jscode.gif"
   document.querySelector("#portfolioModal3Image").src =
-  "../assets/img/portfolio/minifiedcode.png"
+  "./assets/img/portfolio/minifiedcode.png"
 
     /* NO POP-UP */
   document.querySelector("#portfolio1Image").src = data.habilidades[0].logo;
