@@ -51,6 +51,12 @@
         "actividad": "Diseño y programación",
         "area": "Frontend"
       }
-    ]
+    ],
+    "educacionNoFormal":
+    {
+      "sitio": "Youtube",
+      "referente": "Fazt",
+      "urlReferente": "https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg"
+    }
   }
 

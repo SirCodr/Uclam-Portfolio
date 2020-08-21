@@ -1,5 +1,5 @@
 async function setData() {
-  const res = await fetch("../data/info.json");
+  const res = await fetch("./data/info.json");
   const data = await res.json();
 
   /* PORTAFOLIO CABECERA */
@@ -15,11 +15,11 @@ async function setData() {
   document.querySelector("#portfolioModal3Label").textContent =
     data.habilidades[2].habilidad;
   document.querySelector("#portfolioModal1Image").src =
-    "../assets/img/portfolio/vscode.png"
+    "./assets/img/portfolio/vscode.png"
   document.querySelector("#portfolioModal2Image").src =
-  "../assets/img/portfolio/jscode.gif"
+  "./assets/img/portfolio/jscode.gif"
   document.querySelector("#portfolioModal3Image").src =
-  "../assets/img/portfolio/minifiedcode.png"
+  "./assets/img/portfolio/minifiedcode.png"
 
     /* NO POP-UP */
   document.querySelector("#portfolio1Image").src = data.habilidades[0].logo;
@@ -66,6 +66,11 @@ document.querySelector("#sobre-mi-2").innerHTML = aboutMeRight;
 const locacion = `${data.municipio}, ${data.departamento}. <br> ${data.ip}`
 document.querySelector("#locacion-p").innerHTML = locacion;
 
+const educacionNoFormal = `
+  ${data.nombre} se ha educado de manera virtual a través de la plataforma de <strong>${data.educacionNoFormal.sitio} </strong>,
+  aprendiendo de la mano de <a href=${data.educacionNoFormal.urlReferente}>${data.educacionNoFormal.referente}</a>
+`
+document.querySelector("#educacion").innerHTML = educacionNoFormal
 }
 
 function setRangeLove(value){
